@@ -8,6 +8,7 @@ export const character: Character = {
     modelProvider: ModelProviderName.OPENAI,
     settings: {
         secrets: {},
+        model: "gpt-4o-mini",
         voice: {
             model: "en_US-hfc_female-medium",
         },
